@@ -169,6 +169,34 @@
 .courseli {
     text-decoration: none;
     color: black;
+    
+}
+.pAboutus{
+    background-color:#4e4e4c;
+    margin-top: 10px;
+}
+.aheading{
+   color: #FFD700;
+   padding: 3px;
+}
+.pAboutus h1{
+    padding: 4px;
+}
+.pAboutus p{
+    color: white;
+    padding: 4px;
+}
+.pfooter{
+    margin: 2px;
+    padding: 2px;
+}
+.ifooter i{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    fill-opacity: inherit;
+    border-radius: 50px;
+    color: white;
 }
 
 @media screen and (max-width:700px) {
@@ -202,6 +230,7 @@
     }
 
 }
+
 
 
 
