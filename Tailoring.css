@@ -140,11 +140,11 @@
 .psidebar {
     position: fixed;
     top: 0;
-    width: 50%;
+    width: 60%;
     height: 100%;
     background-color: rgb(1, 1, 32);
     color: wheat;
-    left: -60%;
+    left: -70%;
     transition: 1.5s;
 
 
@@ -161,6 +161,9 @@
     padding: 20px;
     padding-left: 50px;
     color: wheat;
+    font-size: x-large;
+    
+
 }
 
 .courseli {

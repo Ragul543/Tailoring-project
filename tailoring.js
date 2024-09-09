@@ -4,7 +4,7 @@ function sideo(){
     blockk.style.left=0}
 function sidec(){
     const blockk=document.getElementById("sidee")
-    blockk.style.left="-60%"}
+    blockk.style.left="-70%"}
 
     
     
