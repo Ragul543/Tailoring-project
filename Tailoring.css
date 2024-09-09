@@ -1,119 +1,132 @@
 * {
     padding: 0;
     margin: 0;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 
-.parentnav{
+.parentnav {
     display: flex;
     background-color: #ff1d58;
     flex-wrap: wrap;
     /* box-shadow: 5px 5px 20px rgba(255, 0, 0, 0.972); */
-      }
-    
-   
+}
 
-.logo{
+
+
+.logo {
     margin-left: 50px;
 }
-.logo img{
+
+.logo img {
     height: 80px;
     width: 80px;
 }
-.title{
-    font-style:initial;
+
+.title {
+    font-style: initial;
     color: #FFD700;
-margin-top: -20px;
+    margin-top: -20px;
 }
 
-.nav4{
+.nav4 {
     display: flex;
     margin: 10px;
     align-items: center;
     width: 35%;
     margin-left: 30%;
     flex-wrap: wrap;
-    
-    }
-.nav4 a{
+
+}
+
+.nav4 a {
     margin: 12px;
     text-decoration: none;
     color: black;
     font-size: 23px;
-}   
-.loginbutton{
+}
+
+.loginbutton {
     margin-left: 50px;
     display: flex;
-    width:fit-content ;
+    width: fit-content;
     align-items: center;
-} 
-.loginbutton button{
+}
+
+.loginbutton button {
     background-color: #FFD700;
     display: flex;
     font-size: medium;
-    font-stretch: bold ;
+    font-stretch: bold;
     height: 30px;
     border-radius: 30px;
     padding: 8px;
     align-items: center;
     border: none;
-    }
-.header{
+}
+
+.header {
     display: flex;
     background-color: #f75990;
-    opacity:90% ;
+
     justify-content: center;
-    }    
-.headclass1{
+}
+
+.headclass1 {
     padding: 20px;
     font-size: large;
-} 
-.hb{
+}
+
+.hb {
     margin-top: 10px;
     width: 40px;
     padding: 5px;
     border-radius: 10px;
     background-color: #FFD700;
     border: none;
-} 
-.img2{
+}
+
+.img2 {
     padding: 5px;
     height: 300px;
     width: 300px;
     opacity: 100%;
 }
-.pcourse{
-  justify-content: center;
-  margin-left: 40%;
-    
-}
-.Course1{
-    display: flex;
-   
-    flex-wrap: wrap;
-    width: 140px;
-    justify-content: center;    
+
+.pcourse {
+    justify-content: center;
+    margin-left: 40%;
 
 }
-.Course2{
+
+.Course1 {
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 140px;
+    justify-content: center;
+
+}
+
+.Course2 {
     border: 2px;
     border-style: solid;
     width: 300px;
-    border-color: #FFD700
-    ;
+    border-color: #FFD700;
 }
-.Course2img{
-    
+
+.Course2img {
+
     height: 200px;
     width: 300px;
 }
-.toogle{
+
+.toogle {
     display: flex;
-   
+
 
     width: fit-content;
     flex-wrap: wrap;
@@ -124,18 +137,89 @@ margin-top: -20px;
     margin-top: -50px;
 }
 
-@media screen and (max-width:700px){
-.nav4{display: none;}
-.toogle{display: block;}
-.loginbutton{display: none;}
-.img2{width: 200px;
-height: 200px;
-padding-top: 43px;
-padding-right: 40px;}
-.logo{width: 100px;
-    margin-right: 30px;
-padding-right: 60px;}
-.pcourse{margin-left: 0;
+.psidebar {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(1, 1, 32);
+    color: wheat;
+    left: -60%;
+    transition: 1.5s;
+
+
 }
+
+.xsidebar {
+    text-align: right;
+    padding: 10px;
 }
-    
+
+.csidebar a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 50px;
+    color: wheat;
+}
+
+.courseli {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:700px) {
+    .nav4 {
+        display: none;
+    }
+
+    .toogle {
+        display: block;
+    }
+
+    .loginbutton {
+        display: none;
+    }
+
+    .img2 {
+        width: 200px;
+        height: 200px;
+        padding-top: 43px;
+        padding-right: 40px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-right: 30px;
+        padding-right: 60px;
+    }
+
+    .pcourse {
+        margin-left: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width:900px) {
+    .nav4 {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 500px;
+
+    }
+
+    .loginbutton {
+        margin: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: end;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .psidebar {
+        left: -60%;
+    }
+}
