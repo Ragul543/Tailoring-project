@@ -133,7 +133,7 @@
     justify-content: center;
     display: none;
     margin-left: 90%;
-
+    font-size: x-large  ;
     margin-top: -50px;
 }
 
@@ -146,13 +146,13 @@
     color: wheat;
     left: -70%;
     transition: 1.5s;
-
-
+    box-shadow: rgb(253, 246, 57) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .xsidebar {
     text-align: right;
     padding: 10px;
+    font-size: x-large;
 }
 
 .csidebar a {
@@ -221,8 +221,8 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:700px) {
     .psidebar {
-        left: -60%;
+        display: none;
     }
 }
