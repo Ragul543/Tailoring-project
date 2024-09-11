@@ -190,14 +190,28 @@
     margin: 2px;
     padding: 2px;
 }
-.ifooter i{
+.ifooter a{
     margin: 10px;
     padding: 10px;
     background-color: red;
-    fill-opacity: inherit;
+   width: 15px;
+   height: 15px;
     border-radius: 50px;
     color: white;
+    text-decoration: none;
 }
+.cfooter {
+    display: block;
+    width: 500px;
+    font-size: medium;
+    letter-spacing: 3px;
+    margin: 5px;
+    padding-left: 5px;
+    
+   
+    
+}
+
 
 @media screen and (max-width:700px) {
     .nav4 {
